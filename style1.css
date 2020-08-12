@@ -1,0 +1,95 @@
+
+
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 120%;
+  font-family: tahoma;
+}
+
+.header {
+   margin: 100px auto 0px;
+  color: white;
+  background: #004080;
+  text-align: center;
+  border-bottom: none;
+  border-radius: 15px 50px;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+/* input */
+.input-group {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: flex;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  width: auto;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+margin: 10px;
+  padding: 14px;
+  font-size: 15px;
+  color: white;
+  background: #004080;
+  border: none;
+  border-radius: 12px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #000000; 
+  color: #000000; 
+  background: #808080; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #808080; 
+  background: #808080; 
+  border: 1px solid #808080;
+  margin-bottom: 20px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #004080;
+  color: white;
+}
+
+
+
+
+ 
+
+
