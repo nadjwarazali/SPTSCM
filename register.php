@@ -44,7 +44,7 @@
 
 <body>
     <div class="w3-container" id="contact"
-        style="padding-top: 90px; padding-right: 600px; padding-bottom: px; padding-left: 600px">
+        style="padding-top: 90px; padding-right: 300px; padding-bottom: px; padding-left: 300px">
         <h1 class=" w3-xxxlarge w3-text-blue"><b>Register</b></h1>
         <hr style="width:50px;border:5px solid blue" class="w3-round">
 

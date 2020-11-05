@@ -58,11 +58,14 @@
                 <label>Password</label>
                 <input class="w3-input w3-border" type="password" name="password" required>
             </div>
+           
 
             <button type="submit" class="w3-button w3-block w3-padding-large w3-blue w3-margin-bottom"
                 name="login_user">Login</button>
             <p>
                 Register Now! <a href="register.php">Sign Up</a>
+                <br>
+                <a href="forgot_password_handler.php">Forgot Password? </a>
             </p>
         </form>
     </div>
