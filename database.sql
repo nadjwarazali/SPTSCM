@@ -14,7 +14,6 @@ CREATE TABLE `users` (
   `tarikh` varchar(100) NOT NULL,
   `resit` varchar(100) NOT NULL,
   `status` varchar(100) NOT NULL,
-  `catatan` varchar(100) NOT NULL,
   PRIMARY KEY  (`id`)
 );
 
@@ -23,4 +22,10 @@ CREATE TABLE `usersid` (
   `username` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `password_reset_temp` (
+  `email` varchar(250) NOT NULL,
+  `key` varchar(250) NOT NULL,
+  `expDate` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
